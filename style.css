@@ -1,0 +1,45 @@
+body {
+    background-image: url("pic/background.png");
+    background-color: black;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.guild-button {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    border: 1% solid black;
+    font-size: 50px;
+    font: bold;
+    margin-top: 400px;
+    margin-left: 25%;
+    width:45%;
+    max-width: 200px;
+    height: auto;
+    transition-duration: 0.4s;  
+}
+.guild-button:hover {
+    background: rgba(0, 0, 0, 0.548);
+    color: palevioletred;
+    border: 2px solid black;
+}
+.info-button {
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    border: 1% solid black;
+    font-size: 50px;
+    font: bold;
+    margin-top: 400px;
+    margin-left: 25%;
+    width:45%;
+    max-width: 200px;
+    height: auto;
+    transition-duration: 0.4s;  
+}
+.info-button:hover {
+    background: rgba(0, 0, 0, 0.548);
+    color: palevioletred;
+    border: 2px solid black;
+}
