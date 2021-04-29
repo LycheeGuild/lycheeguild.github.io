@@ -1,45 +1,39 @@
 body {
     background-image: url("pic/background.png");
     background-color: black;
-    height: 1000px;
+    height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
-.guild-button {
+.lychee {
+    text-align: center;
+    font-size: 175px;
+    font-family: cursive, fantasy;
+    color: palevioletred;
+    text-shadow: 6px 6px black;
+}
+.flex-parent {
+  display: flex;
+}
+.jc-center {
+  justify-content: center;
+}
+button {
     background: rgba(0, 0, 0, 0);
-    color: black;
+    color: white;
     border: 1% solid black;
     font-size: 50px;
     font: bold;
-    margin-top: 400px;
-    margin-left: 25%;
     width:45%;
     max-width: 200px;
     height: auto;
-    transition-duration: 0.4s;  
+    transition-duration: 0.4s; 
 }
-.guild-button:hover {
+button:hover {
     background: rgba(0, 0, 0, 0.548);
     color: palevioletred;
     border: 2px solid black;
 }
-.info-button {
-    background: rgba(0, 0, 0, 0);
-    color: black;
-    border: 1% solid black;
-    font-size: 50px;
-    font: bold;
-    margin-top: 400px;
-    margin-left: 25%;
-    width:45%;
-    max-width: 200px;
-    height: auto;
-    transition-duration: 0.4s;  
-}
-.info-button:hover {
-    background: rgba(0, 0, 0, 0.548);
-    color: palevioletred;
-    border: 2px solid black;
+button.margin-right {
+  margin-right: 20px;
 }
