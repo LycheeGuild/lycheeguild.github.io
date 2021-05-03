@@ -1,13 +1,15 @@
 body {
-  background-image: url("pic/background.png");
-  background-color: black;
-  height: 100%;
-  background-position: center;
-  position: relative;
   text-align: center;
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+.background {
+  background-image: url("pic/background.jpg");
+  background-color: black;
+  height: 100%;
+  background-position: center;
+  position: relative;
 }
 .lychee {
   font-size: 20vw;
@@ -20,30 +22,27 @@ span {
 }
 .t1 {
   display: block;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: black;
+  /* -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black; */
   color: white;
   font-size: 10vw;
   font-weight: bold
 }
 .t2 {
   display: block;
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black; */
   color: white;
-  font-size: 3vw;
+  font-size: 5vw;
+  font-weight: bold;
+  text-decoration: underline white;
 }
 .t3 {
   display: block;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
   color: white;
-  font-size: 5vw;
-  font-weight: bold
+  font-size: 3vw;
 }
-.t4 {
-  display: block;
-  color: white;
-  font-size: 2vw;
-}
+
 .flex-parent {
 display: flex;
 }
